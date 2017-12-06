@@ -1,0 +1,30 @@
+ADDA arpan
+ADDU utkarsh 123456456 jaksda
+ADDU utkarsh 1234564569 jaksda
+ADDA arpn
+ADDU utkarsh 1234564569 jaksda
+ADDU yogesh 1234564569 jaksda
+ADDU chirag 1234564569 jaksda
+ADDU shriom 1234564569 jaksda
+CREATEG kuchbhigroupname arpn
+CREATEG kuchbhigroupname arpan
+CREATEG oopdGroup arpan
+REMOVEG asd ASD
+REQU yogesh kuchbhigroupname
+REQU yogesh kuchbhigroupname
+REQU uttkarsh kuchbhigroupname
+REQU utkarsh kuchbhigroupname
+REQU utkarsh oopdGroup
+PENDING kuchbhigroupname
+ACCEPT arpn kuchbhigroupname utkarsh YES
+ACCEPT arpan oopdGroup utkarsh YES
+REQU utkarsh kuchbhigroupname
+PENDING kuchbhigroupname
+SENDM arpn kuchbhigroupname Hey
+SENDM arpn kuchbhigroupname Hello
+SENDM utkarsh kuchbhigroupname SayIt!
+SHARE utkarsh kuchbhigroupname oopdGroup 2
+VIEWM arpn kuchbhigroupname
+VIEWM utkarsh oopdGroup
+REPLY utkarsh kuchbhigroupname HOLA 2
+VIEWR utkarsh kuchbhigroupname
